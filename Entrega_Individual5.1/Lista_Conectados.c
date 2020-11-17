@@ -116,15 +116,6 @@ int main(int argc, char *argv[]) {
 	DameConectados (&lista, misConectados);
 	printf("Conectados: %s\n", misConectados);
 	
-	/*char *p = strtok (misConectados, "/");
-	int n = atoi (p);
-	int i;
-	for (i=0; i<n; i++){
-		char nombre[20];
-		p=strtok (NULL, "/");
-		strcpy (nombre, p);
-		printf ("Conectado: %s\n", nombre);
-	}*/
 	char misSockets[300];
 	DameSockets(&lista, misConectados, misSockets);
 	
